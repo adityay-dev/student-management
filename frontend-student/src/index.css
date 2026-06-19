@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding-top: 70px; /* navbar height ke equal */
+}
+.main-layout {
+  display: flex;
+  margin-top: 80px; /* navbar ki height */
+  margin-left: 230px;
+}
+.main-layout {
+  display: flex;
+  flex-direction: column; /* IMPORTANT */
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.table-container {
+  margin-top: 30px;
+  width: 100%;
+}

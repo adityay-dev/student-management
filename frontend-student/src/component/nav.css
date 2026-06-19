@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 25px;
+  color: white;
+
+  background: #0f4c81;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  z-index: 1000;
+}
+/* LEFT SIDE */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+/* RIGHT SIDE */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* PROFILE BOX */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 6px 12px;
+  border-radius: 8px;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* AVATAR */
+.avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  background: white;
+  color: #0f4c81;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+
+/* PROFILE TEXT */
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1.1;
+}
+
+.profile-text strong {
+  font-size: 13px;
+}
+
+/* DROPDOWN */
+.dropdown {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  padding: 8px 14px;
+  border-radius: 8px;
+
+  color: white;
+  cursor: pointer;
+   margin-right: 15px;
+  transition: 0.3s;
+}
+
+.logout:hover {
+  background: #ff4d4d;
+  border-color: #ff4d4d;
+  transform: translateY(-1px);
+}

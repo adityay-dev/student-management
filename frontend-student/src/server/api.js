@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8181/students";
+const API_URL = "http://localhost:8080/students";
 
 export const addStudent = (student) => {
   return axios.post(API_URL, student);
@@ -23,5 +23,5 @@ export const getAllStudents = () => {
 };
 
 export const getStudentCount = () => {
-  return axios.get("http://localhost:8181/students/count");
+  return axios.get("http://localhost:8080/students/count");
 };
